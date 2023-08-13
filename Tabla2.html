@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con filas combinadas</title>
+</head>
+<style>
+        
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 45%;
+            color: #000;
+            text-align: center;
+        }
+    
+        td {
+            vertical-align: middle;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(1) > td:nth-child(2){
+            background-color: purple;
+        }
+
+        tr:nth-child(5) > td:nth-child(1){
+            background-color: blue;
+        }
+
+        tr:nth-child(1) > td:nth-child(4){
+            background-color: orange;
+        }
+
+        tr:nth-child(7) > td:nth-child(3){
+            background-color: red;
+        }
+
+</style>
+<body>
+    <table>
+        <tr>
+            <td></td>
+            <td rowspan="3"></td>
+            <td></td>
+            <td rowspan="4"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+</body>
+</html>
