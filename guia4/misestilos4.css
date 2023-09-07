@@ -1,0 +1,32 @@
+#cabecera{
+    border: 1em;
+}
+
+#menu{
+    border: 0.5em;
+}
+
+#noticias, #publicidad, #principal, #secundario{
+    border: 0.5em;
+}
+
+#pie{
+    border-bottom: 0.5em;
+    border-top: 0.5em;
+}
+
+.articulo{
+    margin: 1em;
+}
+
+img{
+    margin: 0.5em;
+}
+
+#publicidad{
+    margin-top: 0.5em;
+}
+
+#pie{
+    margin-top: 1em;
+}
